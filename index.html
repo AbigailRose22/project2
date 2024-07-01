@@ -13,6 +13,7 @@
                background-color: 
                lightgreen;
                text-align: center;
+               word-wrap: break-word;
             }
             .container {
                 background-color: green;
@@ -44,7 +45,7 @@
 
                 <br>
 
-                <img style='border:1px solid #a3d8db'src="" alt="" width="" length="">
+                <img style='border:1px solid #a3d8db'src="" alt="picture of me" width="300" length="300">
 
                 <br>
 
@@ -75,15 +76,29 @@
 
             <br><br>
 
-            <div id="contacts">
-                <h1 style="background-color: purple;">How to Contact Me:</h1>
-                <a href="https://www.instagram.com/abigailsartz/">Visit my art instagram!</a>
+            <div id="contact">
+                <h1 style="background-color: purple;">Contact Me:</h1>
+
+                <br>
+
+                <form style="background-color: hotpink" action="https://example.com/registration.php" method="post">
+                    Add your email so I can contact you! 
+                    <input type="text" name="email">
+
+                    <br>
+
+                    Have any specific comments or questions for me? Type them in below!!
+                    <br>
+                    <textarea cols="35" rows="10"></textarea>
+
+                </form>
 
             </div>
 
         </main>
 
         <footer>
+            <a href="https://www.instagram.com/abigailsartz/" style="background-color: pink">Visit my art instagram!</a>
 
         </footer>
     </body>
